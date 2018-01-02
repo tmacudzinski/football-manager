@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="template" template="/WEB-INF/tiles/template.jsp">
+        <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+    </definition>
+    <!-- field form -->
+    <definition name="fieldFormDef" extends="template">
+        <put-attribute name="title" value="Add field" />
+        <put-attribute name="body" value="/WEB-INF/view/fieldForm.jsp" />
+    </definition>
+    <!-- home -->
+    <definition name="homeDef" extends="template">
+        <put-attribute name="title" value="Home" />
+        <put-attribute name="body" value="/WEB-INF/view/index.jsp" />
+    </definition>
+    <!-- player form -->
+    <definition name="playerFormDef" extends="template">
+        <put-attribute name="title" value="Add player" />
+        <put-attribute name="body" value="/WEB-INF/view/playerForm.jsp" />
+    </definition>
+    <!-- skill form -->
+    <definition name="skillFormDef" extends="template">
+        <put-attribute name="title" value="Add skill" />
+        <put-attribute name="body" value="/WEB-INF/view/skillForm.jsp" />
+    </definition>
+    <!-- success -->
+    <definition name="successDef" extends="template">
+        <put-attribute name="title" value="Success!" />
+        <put-attribute name="body" value="/WEB-INF/view/success.jsp" />
+    </definition>
+    <!-- team form -->
+    <definition name="teamFormDef" extends="template">
+        <put-attribute name="title" value="Add team" />
+        <put-attribute name="body" value="/WEB-INF/view/teamForm.jsp" />
+    </definition>
+    <!-- team list -->
+    <definition name="teamListDef" extends="template">
+        <put-attribute name="title" value="Team list" />
+        <put-attribute name="body" value="/WEB-INF/view/teamList.jsp" />
+    </definition>
+    <!-- field list -->
+    <definition name="fieldListDef" extends="template">
+        <put-attribute name="title" value="Field list" />
+        <put-attribute name="body" value="/WEB-INF/view/fieldList.jsp" />
+    </definition>
+    <!-- skill list -->
+    <definition name="skillListDef" extends="template">
+        <put-attribute name="title" value="Skill list" />
+        <put-attribute name="body" value="/WEB-INF/view/skillList.jsp" />
+    </definition>
+    <!-- player list -->
+    <definition name="playerListDef" extends="template">
+        <put-attribute name="title" value="Player list" />
+        <put-attribute name="body" value="/WEB-INF/view/playerList.jsp" />
+    </definition>
+    <!-- team -->
+    <definition name="teamDef" extends="template">
+        <put-attribute name="title" value="Team" />
+        <put-attribute name="body" value="/WEB-INF/view/team.jsp" />
+    </definition>
+    <!-- player -->
+    <definition name="playerDef" extends="template">
+        <put-attribute name="title" value="Player" />
+        <put-attribute name="body" value="/WEB-INF/view/player.jsp" />
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,76 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+#header {
+    padding-top: 60px;
+    text-align: center;
+    background-image: url("/resources/images/grass.png");
+    color: honeydew;
+}
+
+#menu > a {
+    background: black;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    transition: all 0.5s ease;
+}
+
+#menu > a:hover {
+    background: white;
+    color: black;
+    border: 5px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: all 0.5s ease;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: honeydew;
+    background-image: url("/resources/images/grass.png");
+    color: honeydew;
+}
+
+#body {
+    background: azure;
+}
+
+table {
+    border: 2px black dashed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 3px black solid;
+    padding: 10px;
+}
+
+tr:nth-of-type(even) {
+    background: lightblue;
+}
+
+.separator {
+    width: 1px;
+    height: 20px;
+    border-left: 20px white ridge;
+    display: inline-block;
+}
+
+.loader {
+    background-image: url("/resources/images/loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    padding: 30px;
+}

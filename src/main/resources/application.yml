@@ -1,0 +1,7 @@
+spring.datasource:
+  username: ******
+  password: ******
+  url: jdbc:mysql://***.***.***.***:3306/hbrnt?useUnicode=yes&characterEncoding=UTF-8
+spring.jpa:
+  hibernate.ddl-auto: update
+  show-sql: true
